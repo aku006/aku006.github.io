@@ -63,6 +63,13 @@ body {
     padding: 20px;
 }
 
+/* Footer */
+.footer {
+    padding: 20px;
+    text-align: center;
+    background: #ddd;
+}
+
 /* Responsive layout to make columns stack if screen is too narrow (ex. minimized page) */
 @media screen and (max-width: 700px) {
     .row {
