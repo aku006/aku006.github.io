@@ -19,6 +19,9 @@ body {
 .navbar {
     overflow: hidden;
     background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 
 .navbar a {
@@ -90,4 +93,9 @@ body {
     background-color: #aaa;
     width: 100%;
     padding: 20px;
+}
+
+/* Profile pic settings */
+.profileImg {
+    width: 75%;
 }
