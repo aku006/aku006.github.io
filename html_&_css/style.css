@@ -5,14 +5,19 @@ body {
 
 /* Header styling */
 .header {
-    padding: 80px;
+    padding: 250px;
     text-align: center;
-    background: #1abc9c;
+    background: #1f1d1d;
     color: white;
 }
 
 .header h1 {
     font-size: 40px;
+}
+
+/* Font */
+.headerfont {
+    font-family: "Lucida Console", "Courier New", monospace;
 }
 
 /*Navbar styling*/
@@ -31,6 +36,7 @@ body {
     text-align: center;
     padding: 14px 20px;
     text-decoration: none;
+    font-size: 18px;
 }
 
 .navbar a:hover {
@@ -47,7 +53,7 @@ body {
     box-sizing: border-box;
 }
 
-.row {
+.row1 {
     display: flex;
     flex-wrap: wrap;
 }
@@ -55,22 +61,32 @@ body {
 /* For the sidebar column */
 .side {
     flex: 30%;
-    background-color: #f1f1f1;
+    color: white;
+    background-color: #2e2b2b;
     padding: 20px;
 }
 
 /* Main column */
 .main {
     flex: 70%;
-    background-color: white;
+    background-color: rgb(73, 65, 65);
+    color: white;
     padding: 20px;
+}
+
+/* Paragraph */
+.paragraph {
+    margin-left: 4%;
+    margin-right: 4%;
+    font-size: 20px;
 }
 
 /* Footer */
 .footer {
     padding: 20px;
     text-align: center;
-    background: #ddd;
+    background: #1f1d1d;
+    color:white;
 }
 
 /* Responsive layout to make columns stack if screen is too narrow (ex. minimized page) */
@@ -88,14 +104,10 @@ body {
     }
 }
 
-/* Temporary fake image, may delete later */
-.fakeimg {
-    background-color: #aaa;
-    width: 100%;
-    padding: 20px;
-}
-
 /* Profile pic settings */
 .profileImg {
-    width: 75%;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 }
