@@ -5,9 +5,12 @@ body {
 
 /* Header styling */
 .header {
-    padding: 250px;
+    padding: 345px;
     text-align: center;
-    background: #1f1d1d;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.35)), url("../images/yosemite_header_pic.jpg");
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:center;
     color: white;
 }
 
