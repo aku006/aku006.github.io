@@ -67,6 +67,11 @@ figcaption {
     flex-wrap: wrap;
 }
 
+.subRow {
+    display: flex;
+    width: 100%;
+}
+
 /* Sidebar column*/
 .side1 {
     flex: 30%;
@@ -148,20 +153,15 @@ figcaption {
     float: right;
 }
 
-.skillsLeftSide {
+.leftColumn {
     width: 50%;
-    background-color: rgb(224, 210, 210);
-    color: rgb(0, 0, 0);
     padding-left: 30px;
     padding-right: 30px;
     float: left;
 }
 
-.skillsRightSide {
+.rightColumn {
     width: 50%;
-    background-color: rgb(224, 210, 210);
-    color: rgb(0, 0, 0);
-    
     padding-left: 30px;
     padding-right: 30px;
     float: right;
