@@ -189,3 +189,19 @@ figcaption {
 .projectCardContainer {
     padding: 2px 16px 12px;
 }
+
+/* For Contact info */
+.fa-linkedin {
+    color: white;
+}
+.fa-linkedin:hover {
+    color:rgb(61, 92, 228);
+}
+
+.fa-github {
+    color: white;
+}
+
+.fa-github:hover {
+    color:rgb(61, 92, 228);
+}
