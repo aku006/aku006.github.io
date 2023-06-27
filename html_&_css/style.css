@@ -116,7 +116,7 @@ figcaption {
     flex: 100%;
     background-color: rgb(224, 210, 210);
     color: rgb(0, 0, 0);
-    padding: 20px;
+    padding: 20px 140px;
 }
 
 /* Footer */
