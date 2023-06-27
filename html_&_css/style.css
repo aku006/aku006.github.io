@@ -111,6 +111,14 @@ figcaption {
     font-size: 20px;
 }
 
+/* Just for rows that don't have side pictures or anything - light color only, will add dark color if needed*/
+.mainOnly {
+    flex: 100%;
+    background-color: rgb(224, 210, 210);
+    color: rgb(0, 0, 0);
+    padding: 20px;
+}
+
 /* Footer */
 .footer {
     padding: 20px;
@@ -165,4 +173,19 @@ figcaption {
     padding-left: 30px;
     padding-right: 30px;
     float: right;
+}
+
+/* Cards for projects */
+.projectCard {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 20%;
+}
+
+.projectCardContainer {
+    padding: 2px 16px 12px;
 }
