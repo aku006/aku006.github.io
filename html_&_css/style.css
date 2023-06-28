@@ -32,7 +32,7 @@ figcaption {
 /*Navbar styling*/
 .navbar {
     overflow: hidden;
-    background-color: #333;
+    background-color: #1f1d1d;
     position: fixed;
     top: 0;
     width: 100%;
@@ -43,7 +43,7 @@ figcaption {
     display: block;
     color: white;
     text-align: center;
-    padding: 14px 20px;
+    padding: 12px 20px;
     text-decoration: none;
     font-size: 18px;
 }
@@ -204,4 +204,8 @@ figcaption {
 
 .fa-github:hover {
     color:rgb(61, 92, 228);
+}
+
+html {
+    scroll-behavior: smooth;
 }
