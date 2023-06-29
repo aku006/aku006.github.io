@@ -212,6 +212,22 @@ figcaption {
     color:rgb(61, 92, 228);
 }
 
+.githubIconForProjects {
+    color: blue;
+}
+
+.githubIconForProjects:hover {
+    color: blue;
+}
+
+.youtubeIconForProjects {
+    color: blue;
+}
+
+.youtubeIconForProjects:hover {
+    color: blue;
+}
+
 html {
     scroll-behavior: smooth;
 }
