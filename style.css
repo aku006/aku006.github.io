@@ -5,17 +5,16 @@ body {
 
 /* Header styling */
 .header {
-    padding: 400px;
-    text-align: center;
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.25)), url("images/yosemite_header_pic.jpg");
-    background-size:cover;
-    background-repeat:no-repeat;
-    background-position:center;
     color: white;
 }
 
 .header h1 {
     font-size: 40px;
+}
+
+.heroImg {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.25)), url("images/yosemite_header_pic.jpg");
+    background-position: center;
 }
 
 figcaption {
@@ -56,11 +55,6 @@ figcaption {
 /* Row class styling */
 * {
     box-sizing: border-box;
-}
-
-.row1 {
-    display: flex;
-    flex-wrap: wrap;
 }
 
 .subRow {
@@ -124,26 +118,28 @@ figcaption {
     color:white;
 }
 
-/* Responsive layout to make columns stack if screen is too narrow (ex. minimized page) */
-@media screen and (max-width: 700px) {
-    .row {
-        flex-direction: column;
-    }
-}
-
-/* Responsive layout to make nav links stack if screen is too narrow */
-@media screen and (max-width: 400px) {
-    .navbar a {
-        float: none;
-        width: 100%;
-    }
-}
-
 /* Profile pic settings */
 .profileImg {
     width: 100%;
-    margin: auto;
-    display: block;
+    height: auto;
+    margin-left: 1.5%;
+    /* margin: auto; */
+    /* display: block; */
+}
+
+.profileImgPadding {
+    /* padding: 30px; */
+    width: 300px;
+    height: 300px;
+}
+
+/*for testing*/
+.placeholder {
+    width: 300px;
+    height: 300px;
+    background-color:rgb(69, 42, 165);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.25)), url("images/professional_pfp.jpg");
+    background-position: center;
 }
 
 .gradImg {
@@ -226,4 +222,22 @@ figcaption {
 
 html {
     scroll-behavior: smooth;
+}
+
+/* Responsive layout to make columns stack if screen is too narrow (ex. minimized page) */
+@media screen and (max-width: 768px) {
+    .media {
+        max-width: 768px;
+    }
+    .row {
+        flex-direction: column;
+    }
+}
+
+/* Responsive layout to make nav links stack if screen is too narrow */
+@media screen and (max-width: 400px) {
+    .navbar a {
+        float: none;
+        width: 100%;
+    }
 }
