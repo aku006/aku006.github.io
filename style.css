@@ -96,10 +96,11 @@ figcaption {
 }
 
 /* Paragraph */
-.paragraph {
+.paragraphWhiteText {
     margin-left: 4%;
     margin-right: 4%;
     font-size: 20px;
+    color:white;
 }
 
 /* Just for rows that don't have side pictures or anything - light color only, will add dark color if needed*/
@@ -144,8 +145,9 @@ figcaption {
 
 .gradImg {
     width: 100%;
-    margin-top: 7%;
-    display: block;
+    height: auto;
+    /* margin-top: 7%;
+    display: block; */
 }
 
 /* Skills Section */
@@ -222,6 +224,14 @@ figcaption {
 
 html {
     scroll-behavior: smooth;
+}
+
+.bgColor1 {
+    background-color: rgb(73, 65, 65);
+}
+
+.bgColor2 {
+    background-color: rgb(224, 210, 210);
 }
 
 /* Responsive layout to make columns stack if screen is too narrow (ex. minimized page) */
