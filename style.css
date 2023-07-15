@@ -176,6 +176,11 @@ figcaption {
 }
 
 /* Cards for projects */
+.card {
+    margin: 20px;
+    width: 18rem;
+}
+
 .projectCard {
     margin-left: 20px;
     margin-right: 20px;
