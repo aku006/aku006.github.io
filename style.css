@@ -28,7 +28,7 @@ html, body {
 figcaption {
     position: absolute;
     bottom:0;
-    right:0;
+    left:0;
 }
 
 /* Font */
@@ -281,6 +281,9 @@ html {
     .display-5 {
         font-size: 24px;
     }
+    .figcaption {
+        font-size: 14px;
+    }
 }
 
 /* If screen is small adjust font */
@@ -290,6 +293,9 @@ html {
     }
     .display-5 {
         font-size: 32px;
+    }
+    .figcaption {
+        font-size: 14px;
     }
 }
 
