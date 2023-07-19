@@ -25,18 +25,6 @@ html, body {
     background-position: center;
 }
 
-.citationText {
-    position: absolute;
-    bottom:0;
-    left:0;
-}
-
-figcaption {
-    position: absolute;
-    bottom:0;
-    left:0;
-}
-
 /* Font */
 .headerfont {
     font-family: "Lucida Console", "Courier New", monospace;
@@ -286,9 +274,6 @@ html {
     }
     .display-5 {
         font-size: 24px;
-    }
-    .citationText {
-        font-size: 12px;
     }
 }
 
