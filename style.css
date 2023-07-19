@@ -9,9 +9,9 @@ body {
     color: white;
 }
 
-.header h1 {
+/* .header h1 {
     font-size: 40px;
-}
+} */
 
 .heroImg {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.25)), url("images/yosemite_header_pic.jpg");
@@ -263,5 +263,35 @@ html {
     .navbar a {
         float: none;
         width: 100%;
+    }
+}
+
+/* If screen is extra small adjust font */
+@media screen and (max-width: 575.99px) {
+    .display-1 {
+        font-size: 48px;
+    }
+    .display-5 {
+        font-size: 24px;
+    }
+}
+
+/* If screen is small adjust font */
+@media screen and (min-width: 576px) and (max-width: 767.99px) {
+    .display-1 {
+        font-size: 56px;
+    }
+    .display-5 {
+        font-size: 32px;
+    }
+}
+
+/* If screen is medium adjust font */
+@media screen and (min-width: 768px) and (max-width: 991.99px) {
+    .display-1 {
+        font-size: 70px;
+    }
+    .display-5 {
+        font-size: 40px;
     }
 }
