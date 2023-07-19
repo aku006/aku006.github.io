@@ -132,7 +132,7 @@ figcaption {
 .profileImg {
     width: 100%;
     height: auto;
-    margin-left: 1.5%;
+    /* margin-left: 1.5%; */
     /* margin: auto; */
     /* display: block; */
 }
