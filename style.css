@@ -25,6 +25,12 @@ html, body {
     background-position: center;
 }
 
+.citationText {
+    position: absolute;
+    bottom:0;
+    left:0;
+}
+
 figcaption {
     position: absolute;
     bottom:0;
@@ -281,8 +287,8 @@ html {
     .display-5 {
         font-size: 24px;
     }
-    .figcaption {
-        font-size: 14px;
+    .citationText {
+        font-size: 12px;
     }
 }
 
@@ -293,9 +299,6 @@ html {
     }
     .display-5 {
         font-size: 32px;
-    }
-    .figcaption {
-        font-size: 14px;
     }
 }
 
