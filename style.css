@@ -132,8 +132,8 @@ html, body {
     width: 95%;
     height: auto;
     /* margin-left: 1.5%; */
-    /* margin: auto; */
-    /* display: block; */
+    margin: auto;
+    display: block;
 }
 
 .profileImgPadding {
@@ -248,22 +248,22 @@ html {
 }
 
 /* Responsive layout to make columns stack if screen is too narrow (ex. minimized page) */
-/* @media screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
     .media {
         max-width: 768px;
     }
     .row {
         flex-direction: column;
     }
-} */
+}
 
 /* Responsive layout to make nav links stack if screen is too narrow */
-/* @media screen and (max-width: 300px) {
+@media screen and (max-width: 300px) {
     .navbar a {
         float: none;
         width: 100%;
     }
-} */
+}
 
 /* If screen is extra small adjust font */
 @media screen and (max-width: 575.99px) {
